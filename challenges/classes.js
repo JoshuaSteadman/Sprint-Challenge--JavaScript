@@ -44,10 +44,10 @@ class CubeMaker extends CuboidMaker {
 
 const hexahedron = new CubeMaker({length: 5, width: 5, height: 5});
 
-console.log(hexahedron.cubeVolume()); // 100
-console.log(hexahedron.cubeSurfaceArea()); // 130
+console.log(hexahedron.cubeVolume()); // 125
+console.log(hexahedron.cubeSurfaceArea()); // 150
 
 const hexahedron_two = new CubeMaker({length: 6, width: 6, height: 6});
 
-console.log(hexahedron_two.cubeVolume()); // 100
-console.log(hexahedron_two.cubeSurfaceArea()); // 130
+console.log(hexahedron_two.cubeVolume()); // 216
+console.log(hexahedron_two.cubeSurfaceArea()); // 216
